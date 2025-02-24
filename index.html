@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escritório de Advocacia</title>
+    <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome para ícones -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</head>
+<body>
+  <!-- Header e Menu -->
+  <header>
+    <div class="header-container">
+      <div class="logo">Escritório de Advocacia</div>
+      
+      <div class="contato-header">
+        <a href="tel:+5511999999999" class="contato-item">
+          <i class="fas fa-phone"></i> (11) 99999-9999
+        </a>
+        <a href="https://wa.me/5511999999999" class="contato-item" target="_blank">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+      </div>
+      
+      <div class="menu-mobile" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+    
+    <nav>
+      <ul class="menu" id="menuLista">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#areas">Áreas de Atuação</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- Seção Inicial -->
+  <section id="inicio">
+    <div class="hero-content">
+      <h1>Advocacia de Excelência</h1>
+      <p>Compromisso com seus direitos e soluções jurídicas personalizadas para cada situação. Nossa equipe experiente está pronta para lhe atender.</p>
+      <a href="#contato" class="cta-button">Fale Conosco</a>
+    </div>
+  </section>
+  
+  <!-- Áreas de Atuação -->
+  <section id="areas">
+    <h2>Áreas de Atuação</h2>
+    <div class="areas-grid">
+      <div class="area-card">
+        <h3>Direito Civil</h3>
+        <p>Atuação em questões de família, sucessões, contratos, responsabilidade civil e outras demandas do cotidiano jurídico.</p>
+      </div>
+      
+      <div class="area-card">
+        <h3>Direito Empresarial</h3>
+        <p>Assessoria jurídica para empresas de todos os portes, startups e empreendedores, com foco em soluções estratégicas.</p>
+      </div>
+      
+      <div class="area-card">
+        <h3>Direito Trabalhista</h3>
+        <p>Representação tanto de empregadores quanto de empregados, garantindo a defesa de seus direitos nas relações de trabalho.</p>
+      </div>
+      
+      <div class="area-card">
+        <h3>Direito Imobiliário</h3>
+        <p>Atendimento para compra, venda, locação, regularização de imóveis e questões condominiais.</p>
+      </div>
+      
+      <div class="area-card">
+        <h3>Direito Tributário</h3>
+        <p>Planejamento tributário e atuação em processos administrativos e judiciais envolvendo tributos e obrigações fiscais.</p>
+      </div>
+      
+      <div class="area-card">
+        <h3>Direito do Consumidor</h3>
+        <p>Defesa dos direitos dos consumidores e orientação para empresas sobre o cumprimento da legislação consumerista.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Sobre Nós -->
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <div class="sobre-container">
+      <div class="sobre-imagem">
+        <img src="/api/placeholder/500/400" alt="Escritório de Advocacia">
+      </div>
+      
+      <div class="sobre-texto">
+        <h3>Nossa História e Compromisso</h3>
+        <p>Fundado em 2010, nosso escritório de advocacia nasceu com a missão de oferecer serviços jurídicos de excelência, combinando tradição e modernidade. Ao longo dos anos, construímos uma reputação sólida baseada na ética, competência e dedicação aos nossos clientes.</p>
+        
+        <p>Nossa equipe é formada por advogados especializados em diversas áreas do Direito, todos comprometidos com a atualização constante e com o atendimento personalizado. Acreditamos que cada caso é único e merece atenção especial.</p>
+        
+        <p>Prezamos pela transparência em nossas relações, pela clareza na comunicação e pela eficiência na condução dos processos. Nosso objetivo é sempre encontrar as melhores soluções jurídicas, seja pela via consultiva ou contenciosa.</p>
+        
+        <p>Estamos preparados para atender tanto pessoas físicas quanto jurídicas, com a mesma dedicação e profissionalismo que nos caracteriza desde o início.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contato -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <div class="contato-container">
+      <div class="contato-info">
+        <h3>Informações de Contato</h3>
+        
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Av. Paulista, 1000, Conjunto 101 - São Paulo/SP</span>
+        </div>
+        
+        <div class="info-item">
+          <i class="fas fa-phone"></i>
+          <span>(11) 99999-9999</span>
+        </div>
+        
+        <div class="info-item">
+          <i class="fab fa-whatsapp"></i>
+          <span>(11) 99999-9999</span>
+        </div>
+        
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <span>contato@escritorioadvocacia.com.br</span>
+        </div>
+        
+        <div class="info-item">
+          <i class="fas fa-clock"></i>
+          <span>Segunda a Sexta: 9h às 18h</span>
+        </div>
+        
+        <h3 style="margin-top: 30px;">Redes Sociais</h3>
+        <div class="social-icons">
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      
+      <div class="contato-form">
+        <form id="formularioContato" onsubmit="enviarEmail(event)">
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone">
+          </div>
+          
+          <div class="form-group">
+            <label for="assunto">Assunto</label>
+            <input type="text" id="assunto" name="assunto" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+          </div>
+          
+          <button type="submit" class="submit-button">Enviar Mensagem</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="copyright">
+      &copy; 2025 Escritório de Advocacia. Todos os direitos reservados.
+    </div>
+  </footer>
+  
+  <!-- Botão WhatsApp Flutuante -->
+  <a href="https://wa.me/5511999999999" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+    <span>Fale Conosco</span>
+  </a>
+  
+  <!-- Scripts -->
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
